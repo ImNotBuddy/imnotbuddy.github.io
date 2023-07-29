@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Images/Icon.png">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://kit.fontawesome.com/32996a4ee5.js" crossorigin="anonymous"></script>
+    <title>ImNotBuddy's Portfolio</title>
+</head>
+
+<body>
+    <div class="sidebar-container">
+        <!-- TODO -->
+        <img class="sidebar-avatar" src="/Images/Icon.png" id="theme-toggle"/>
+        <p class="sidebar-name">ImNotBuddy</p>
+        <p class="sidebar-description">Student at [!], Studying Computer Science.</p>
+        <ul class="sidebar-list">
+            
+            <li> <a class="sidebar-link" href="#" target="_blank">
+                <i class="fa-solid fa-envelope fa-sm"></i> Email
+            </a> </li>
+            
+            <li> <a class="sidebar-link" href="https://github.com/ImNotBuddy" target="_blank">
+                <i class="fa-brands fa-github fa-sm"></i> GitHub
+            </a> </li>
+            
+            <li> <a class="sidebar-link" href="#">
+                <i class="fa-brands fa-discord fa-sm"></i> Discord
+            </a> </li>
+
+            <li> <a class="sidebar-link" href="#" target="_blank">
+                <i class="fa-brands fa-twitter fa-sm"></i> Twitter
+            </a> </li>
+        </ul>
+         
+    </div>
+
+    <div class="topbar-container">
+        <!-- TODO -->
+        <p class="topbar-title">Portfolio</p>
+        <ul class="topbar-list">
+            <li> <a class="topbar-link" href="index.html">Home</a> </li>
+            <li> <a class="topbar-link" href="#">Blogs</a> </li>
+            <li> <a class="topbar-link" href="#">About</a> </li>
+        </ul>
+    </div>
+    <div class="content-container">
+        <!-- TODO -->
+    </div>
+    <script src="magneticButtons.js"></script>
+    <script>
+        const icon = document.getElementById("theme-toggle")
+        icon.onclick = function() {
+            document.body.classList.toggle("light-theme")
+        }
+    </script>
+</body>
+
+</html>
